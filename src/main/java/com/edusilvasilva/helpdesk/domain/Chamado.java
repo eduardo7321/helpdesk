@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 
-import javax.annotation.Generated;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -126,7 +125,5 @@ public class Chamado implements Serializable{
 		Chamado other = (Chamado) obj;
 		return Objects.equals(id, other.id);
 	}
-	
-	
 
 }
