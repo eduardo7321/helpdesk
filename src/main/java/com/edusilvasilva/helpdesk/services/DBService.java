@@ -30,15 +30,15 @@ public class DBService {
 		Tecnico tec1 = new Tecnico(null, "Eduardo Silva Silva", "06816288475", "eduardo@email.com", "123");
 		tec1.addPerfil(Perfil.ADMIN);
 		
-		Tecnico tec2 = new Tecnico(null, "Tatiane Silva Silva", "999999999", "tati2@email.com", "123");
+		Tecnico tec2 = new Tecnico(null, "Tatiane Silva Silva", "31065870086", "tati2@email.com", "123");
 		tec2.addPerfil(Perfil.ADMIN);
 		
-		Tecnico tec3 = new Tecnico(null, "Isaque Levi Silva", "000000000", "isaquelevi@email.com", "123");
+		Tecnico tec3 = new Tecnico(null, "Isaque Levi Silva", "04900350001", "isaquelevi@email.com", "123");
 		tec3.addPerfil(Perfil.ADMIN);
 		
-		Cliente cli1 = new Cliente(null, "Tatiane Silva", "80527954780", "tati@email.com", "123");
+		Cliente cli1 = new Cliente(null, "Tatiane Silva", "56868216076", "tati@email.com", "123");
 		
-		Cliente cli2 = new Cliente(null, "Isaque Levi Silva", "7582759829", "isaque@email.com", "123");
+		Cliente cli2 = new Cliente(null, "Isaque Levi Silva", "42405609002", "isaque@email.com", "123");
 		
 		Chamado c1 = new Chamado(null, Prioridade.MEDIA, Status.ANDAMENTO, "Chamado 01", "Primeiro chamado", tec1, cli1);
 				
