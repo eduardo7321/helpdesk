@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.edusilvasilva.helpdesk.domain.Cliente;
-import com.edusilvasilva.helpdesk.dtos.ClienteDTO;
+import com.edusilvasilva.helpdesk.domain.dtos.ClienteDTO;
 import com.edusilvasilva.helpdesk.services.ClienteService;
 
 @RestController

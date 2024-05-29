@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 
+import com.edusilvasilva.helpdesk.domain.dtos.TecnicoDTO;
 import com.edusilvasilva.helpdesk.domain.enums.Perfil;
-import com.edusilvasilva.helpdesk.dtos.TecnicoDTO;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity

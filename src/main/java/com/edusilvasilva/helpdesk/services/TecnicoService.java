@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.edusilvasilva.helpdesk.domain.Pessoa;
 import com.edusilvasilva.helpdesk.domain.Tecnico;
-import com.edusilvasilva.helpdesk.dtos.TecnicoDTO;
+import com.edusilvasilva.helpdesk.domain.dtos.TecnicoDTO;
 import com.edusilvasilva.helpdesk.repositories.PessoaRepository;
 import com.edusilvasilva.helpdesk.repositories.TecnicoRepository;
 import com.edusilvasilva.helpdesk.services.exception.DataIntegrityViolationException;
